@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 function task1() {
     echo "Running task1..."
     sleep 5
