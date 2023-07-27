@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Multitask
+#
+# Author: biga
+
+set -euo pipefail
 
 function task1() {
     echo "Running task1..."

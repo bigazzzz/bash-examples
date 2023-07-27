@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Loops
+#
+# Author: biga
+
+set -euo pipefail
 
 arr=(a b c d e f)
 echo "=================================================="

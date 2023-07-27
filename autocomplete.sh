@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 # The following shell function will be used to generate completions for
 # the "nuance_tune" command.
 _nuance_tune_opts() {

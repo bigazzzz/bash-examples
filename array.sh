@@ -4,6 +4,8 @@
 #
 # Author: biga
 
+set -euo pipefail
+
 arr=([1]='fourth element' [4]='fifth element')
 
 for ((i = 0; i < ${#arr[@]}; i++)); do

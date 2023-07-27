@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Work with strings
+#
+# Author: biga
+
+set -euo pipefail
 
 echo "================================================="
 a='I am a string'

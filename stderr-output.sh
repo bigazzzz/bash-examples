@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Output to stderr
+#
+# Author: biga
+
+set -euo pipefail
 
 err() {
     echo "E: $*" >>/dev/stderr

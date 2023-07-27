@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Regex example
+#
+# Author: biga
+
+set -euo pipefail
 
 a='I am a simple string with digits 1234'
 pat='(.*) ([0-9]+)'

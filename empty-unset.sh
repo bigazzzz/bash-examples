@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Check vars
+#
+# Author: biga
+
+set -euo pipefail
 
 FOO=
 

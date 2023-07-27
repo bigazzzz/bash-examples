@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Frame v1
+#
+# Author: biga
+
+set -euo pipefail
 
 while true; do
     # Frame #1

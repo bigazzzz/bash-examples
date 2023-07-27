@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Work with arguments v2
+#
+# Author: biga
+
+set -euo pipefail
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in

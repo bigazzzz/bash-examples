@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Multiline
+#
+# Author: biga
+
+set -euo pipefail
 
 newline1='
 '

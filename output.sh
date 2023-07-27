@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Nice output
+#
+# Author: biga
+
+set -euo pipefail
 
 bold=$(tput bold)
 underline=$(tput smul)

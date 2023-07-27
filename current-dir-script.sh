@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Current directory
+#
+# Author: biga
+
+set -euo pipefail
 
 echo "$(dirname "$(readlink -f "$0")")"
 

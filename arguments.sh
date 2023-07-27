@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+#
+# Desc: Example with arguments
+#
+
+set -euo pipefail
 
 deploy=false
 uglify=false

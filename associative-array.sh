@@ -4,6 +4,8 @@
 #
 # Author: biga
 
+set -euo pipefail
+
 declare -A aa
 
 aa[hello]=world

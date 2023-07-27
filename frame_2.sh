@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# Desc: Frame v2
+#
+# Author: biga
+
+set -euo pipefail
 
 sleep 5 &
 pid=$!
